@@ -45,7 +45,7 @@ function App() {
             <ToastContainer position="top-center" />
             <Routes setUser={user}>
               <Route
-                path="/"
+                path="/dashboard"
                 element={<Dashboard setActive={setActive} user={user} />}
               />
               <Route
@@ -59,7 +59,7 @@ function App() {
               />
               <Route path="/about" element={<About user={user} />} />
               <Route path="/walk-in" element={<Form user={user} />} />
-              <Route path="/auth" element={<Authentication setUser={user} />} />
+              <Route path="/" element={<Authentication setUser={user} />} />
               <Route path="/details" element={<Details user={user} />} />
               <Route path="/lister" element={<Lister user={user} />} />
             </Routes>

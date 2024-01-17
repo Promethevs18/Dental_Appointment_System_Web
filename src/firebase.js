@@ -7,14 +7,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDXxSYau7edKYvVmgNTg3feZRT0PBG74mQ",
-  authDomain: "vet-clinic-app-8203d.firebaseapp.com",
-  databaseURL: "https://vet-clinic-app-8203d-default-rtdb.firebaseio.com",
-  projectId: "vet-clinic-app-8203d",
-  storageBucket: "vet-clinic-app-8203d.appspot.com",
-  messagingSenderId: "946182137618",
-  appId: "1:946182137618:web:daff4aa3b9f20dda8cb5cb",
-  measurementId: "G-QRYVH0Z92P",
+  apiKey: "AIzaSyC-JvFxh7D4712W8rXeCtBFzWAniBd9LOQ",
+  authDomain: "dental-management-system-2dccb.firebaseapp.com",
+  databaseURL: "https://dental-management-system-2dccb-default-rtdb.firebaseio.com",
+  projectId: "dental-management-system-2dccb",
+  storageBucket: "dental-management-system-2dccb.appspot.com",
+  messagingSenderId: "760919837823",
+  appId: "1:760919837823:web:dcf0a3515496a783cf434a",
+  measurementId: "G-KP49Q7TK8K"
 };
 
 // Initialize Firebase

@@ -127,7 +127,7 @@ const Details = ({ user }) => {
           //kasama rito ang serviceID, templateID, at yung PublicID, pati narin yung templateParams
           emailjs
             .send(
-              "service_uny4fcq",
+              "service_25w69jt",
               "template_gcoxliu",
               templateParams,
               "p4xfnVj9crR2omWTm"

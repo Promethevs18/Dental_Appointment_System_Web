@@ -1,24 +1,12 @@
-import React, { useMemo } from "react";
+import React  from "react";
 import { Box, Typography } from "@mui/material";
 import Header from "../../components/Header";
-import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 import { useTheme } from "@emotion/react";
 import { tokens } from "../../theme";
 
 export default function About() {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyC-JvFxh7D4712W8rXeCtBFzWAniBd9LOQ",
-  });
-
-  const center = useMemo(
-    () => ({ lat: 14.395677489753782, lng: 120.977583808926 }),
-    []
-  );
-
-  if (!isLoaded) return <div>Loading...</div>;
 
   return (
     <Box m="20px">
@@ -134,15 +122,6 @@ export default function About() {
         >
           Molino Road, Molino I, Bacoor City, 4102 Cavite, Philippines
         </Typography>
-      </Box>
-      <Box m="30px" display="flex">
-        <GoogleMap
-          zoom={15}
-          center={center}
-          mapContainerClassName="map-container"
-        >
-          <MarkerF position={center} />
-        </GoogleMap>
       </Box>
     </Box>
   );

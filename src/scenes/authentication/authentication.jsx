@@ -28,7 +28,7 @@ const Authentication = ({ setUser, setActive }) => {
       toast.error(error.message);
     });
     toast.success("You have successfully signed in");
-    navigate("/");
+    navigate("/dashboard");
     setUser(user);
     setActive("Dashboard");
   };
