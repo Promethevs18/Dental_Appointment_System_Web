@@ -96,10 +96,10 @@ const Sidebar = ({ user }) => {
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="Dental Logo"
-                  width="150px"
-                  height="150px"
-                  src="https://firebasestorage.googleapis.com/v0/b/dental-management-system-2dccb.appspot.com/o/tooth.png?alt=media&token=f4082c5d-eee3-4160-ae6b-a83dfcdc2b06"
-                  style={{ cursor: "pointer", borderRadius: "50%" }}
+                  width="200px"
+                  height="200px"
+                  src="https://firebasestorage.googleapis.com/v0/b/dental-management-system-2dccb.appspot.com/o/352845775_6252662974822138_9003860060307166553_n.jpg?alt=media&token=5091ad7e-0571-4afa-9c8a-3b71f1167484"
+                  style={{  borderRadius: "50%" }}
                 />
               </Box>
               <Box textAlign="center">
@@ -110,11 +110,11 @@ const Sidebar = ({ user }) => {
                     fontWeight="bold"
                     sx={{ m: "10px 0 0 0" }}
                   >
-                    Administrator
+                    Maria Michelle Awing-tauli 
                   </Typography>
                 )}
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  Dental Management
+                    Administrator
                 </Typography>
               </Box>
             </Box>

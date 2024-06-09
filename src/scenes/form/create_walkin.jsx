@@ -92,9 +92,7 @@ const Form = () => {
               "/" +
               values.fullName +
               " " +
-              schedule_time +
-              " " +
-              schedule_time
+              schedule_time 
           ),
           {
             ...values,
@@ -106,7 +104,7 @@ const Form = () => {
               date.getFullYear(),
             sched_time: schedule_time,
             imageUrl:
-              "https://firebasestorage.googleapis.com/v0/b/dental-management-system-2dccb.appspot.com/o/Profile-pic.png?alt=media&token=5e0d4817-042b-4cf3-b31d-fb3a1d675ec1",
+              "https://firebasestorage.googleapis.com/v0/b/dental-management-system-2dccb.appspot.com/o/tooth.png?alt=media&token=c1a1d71d-821c-4aa3-b8b6-6a3b4ab35842",
           }
         );
         toast.success("Data has been uploaded in the database");
@@ -114,7 +112,7 @@ const Form = () => {
         toast.error(error);
       }
     }
-    navigate("/");
+    navigate("/dashboard");
   };
 
   return (

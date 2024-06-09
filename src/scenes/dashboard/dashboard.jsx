@@ -1,4 +1,4 @@
-import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import { getDatabase, onValue, ref } from "firebase/database";
@@ -17,6 +17,7 @@ const Dashboard = ({ user }) => {
   const [loading, setLoading] = useState(true);
   const db = getDatabase();
   const [presentList, setPresentList] = useState([]);
+   // eslint-disable-next-line
   const [count, setCount] = useState(time);
   const [dateToday, setDate] = useState(date);
 
@@ -32,7 +33,6 @@ const Dashboard = ({ user }) => {
 
   setInterval(UpdateDate, 1000);
   setInterval(UpdateTime, 1000);
-
   useEffect(() => {
     let present = [];
     const getPresent = onValue(

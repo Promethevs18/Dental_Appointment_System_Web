@@ -1,8 +1,6 @@
-import { Avatar, Box, Typography, useTheme } from "@mui/material";
-import { DataGrid } from "@mui/x-data-grid";
+import { Avatar, Box, useTheme } from "@mui/material";
+import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
-import EditIcon from "@mui/icons-material/Edit";
-import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import Header from "../../components/Header";
 import React, { useEffect, useState } from "react";
 import { getDatabase, onValue, ref } from "firebase/database";
@@ -110,9 +108,14 @@ const Team = () => {
             borderTop: "none",
             backgroundColor: colors.blueAccent[700],
           },
+          "& .MuiButtonBase-root":{
+            color: colors.greenAccent[400]
+          }
         }}
       >
-        <DataGrid rows={patientsList} columns={columns} />
+        <DataGrid rows={patientsList} columns={columns} slots={{
+          toolbar: GridToolbar,
+        }}/>
       </Box>
     </Box>
   );

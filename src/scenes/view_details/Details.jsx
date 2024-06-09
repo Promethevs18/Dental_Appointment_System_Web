@@ -33,21 +33,13 @@ const Details = ({ user }) => {
 
   const formikRef = useRef(null);
   const navigate = useNavigate();
-  var old_time;
+  // eslint-disable-next-line
+    var old_time;
 
+    
   //ETO YUNG KUNG MAGSEARCH NG PATIENT
   const search = async (name_search, time_search) => {
     old_time = time_search;
-    console.log(
-      "Patient Bookings/" +
-        name_search +
-        " " +
-        time_search +
-        "/" +
-        name_search +
-        " " +
-        time_search
-    );
     const patient = ref(
       db,
       "Patient Bookings/" +
@@ -97,6 +89,7 @@ const Details = ({ user }) => {
       )
     ) {
       if (details.sched_date !== null) {
+        console.log(details.fullName)
         try {
           await update(
             ref(
@@ -106,7 +99,7 @@ const Details = ({ user }) => {
                 " " +
                 details.sched_time +
                 "/" +
-                +details.fullName +
+                details.fullName +
                 " " +
                 details.sched_time
             ),
@@ -133,8 +126,6 @@ const Details = ({ user }) => {
               "p4xfnVj9crR2omWTm"
             )
             .then((response) => {
-              toast.success(old_time);
-              toast.success(details.sched_time);
               toast.success(
                 "Email has been sent sucessfully and record has been updated"
               );
@@ -146,7 +137,7 @@ const Details = ({ user }) => {
           toast.error(error);
         }
       }
-      navigate("/");
+      navigate("/dashboard");
     }
   };
 
@@ -160,7 +151,7 @@ const Details = ({ user }) => {
         toast.error(error);
       }
     }
-    navigate("/");
+    navigate("/dashboard");
   };
 
   return (

@@ -27,7 +27,7 @@ export default function About() {
             variant="h1"
             fontWeight="bold"
           >
-            Dental Management System
+            TAULI DENTAL CLINIC
           </Typography>
           <Box
             display="flow"
@@ -35,7 +35,7 @@ export default function About() {
             alignItems="center"
           >
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/dental-management-system-2dccb.appspot.com/o/348388525_294101143043199_4547385099567029847_n.jpg?alt=media&token=a4685458-9cd7-4465-946a-ed5f548ced84&_gl=1*5u6jrx*_ga*MTQwNDAzMzU0MC4xNjgyNDAzNDU4*_ga_CW55HF8NVT*MTY4NjU5Nzg2OS43Mi4xLjE2ODY1OTc5MjkuMC4wLjA."
+              src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.18169-9/12239744_117058685327184_1285971808460013137_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeFSwDDcc2UhZNoQvXVS8bkdTPdv2bigQcxM92_ZuKBBzA_qyy0B00YQeyxryw-QAQjlblY2rppqvrfHng4Hnwfd&_nc_ohc=ydHLO2aAY80AX_ui-ID&_nc_ht=scontent.fmnl9-2.fna&oh=00_AfCO3mJEt2avm-gkhQ_phR-3cIXXvF6sBULmWdUghZfNXw&oe=65D18A92"
               alt="clinic1"
               style={{
                 height: "250px",
@@ -44,7 +44,7 @@ export default function About() {
               }}
             />
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/dental-management-system-2dccb.appspot.com/o/zzzz.jpg?alt=media&token=a8c99cba-fa63-4b36-bd7b-66b4bbc0f0f1&_gl=1*o7wb9m*_ga*MTQwNDAzMzU0MC4xNjgyNDAzNDU4*_ga_CW55HF8NVT*MTY4NjU5Nzg2OS43Mi4xLjE2ODY1OTc5MjMuMC4wLjA."
+              src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.18169-9/12647111_181341962232189_5895069340004450627_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c2f564&_nc_eui2=AeEMZ3LEEsdaSB3G5ExoenmDqxR8w3T2dcarFHzDdPZ1xveyNq6jM24Mch0lghBLaE58J76R3WEgb915h6C1ZRWS&_nc_ohc=hTPOMtvAuO0AX-ls2ex&_nc_ht=scontent.fmnl9-3.fna&oh=00_AfBIm8i8UCDmoabtO5siKnRBvRjysNzD0nC7dNy9acj4xQ&oe=65D1AABF"
               alt="clinic1"
               style={{
                 height: "250px",
@@ -69,11 +69,7 @@ export default function About() {
               alignContent="center"
               sx={{ width: "400px" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. At
-              quis risus sed vulputate. Sem viverra aliquet eget sit amet tellus
-              cras. Magna sit amet purus gravida. Ac orci phasellus egestas
-              tellus rutrum tellus pellentesque eu tincidunt.
+              At Tauli Dental Clinic, our mission is to provide exceptional dental care with a commitment to excellence, compassion, and patient-centricity. We strive to enhance the oral health and overall well-being of our community by delivering personalized, high-quality dental services in a comfortable and welcoming environment. 
             </Typography>
           </span>
         </div>
@@ -93,11 +89,7 @@ export default function About() {
               alignContent="center"
               sx={{ width: "400px" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. At
-              quis risus sed vulputate. Sem viverra aliquet eget sit amet tellus
-              cras. Magna sit amet purus gravida. Ac orci phasellus egestas
-              tellus rutrum tellus pellentesque eu tincidunt.
+              A place where you could find a comprehensive oral health care for all, from general dentistry to advanced dental specialties guided by professionalism.
             </Typography>
           </span>
         </div>
@@ -120,7 +112,7 @@ export default function About() {
           alignContent="center"
           sx={{ width: "400px" }}
         >
-          Molino Road, Molino I, Bacoor City, 4102 Cavite, Philippines
+          Palangdao Building, Unit 13 2600 Baguio City, Philippines
         </Typography>
       </Box>
     </Box>
